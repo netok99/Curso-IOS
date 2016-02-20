@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6653B4F1C78900200B79A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6653B4E1C78900200B79A3A /* AppDelegate.swift */; };
+		C6653B511C78900200B79A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6653B501C78900200B79A3A /* ViewController.swift */; };
+		C6653B541C78900200B79A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6653B521C78900200B79A3A /* Main.storyboard */; };
+		C6653B561C78900200B79A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6653B551C78900200B79A3A /* Assets.xcassets */; };
+		C6653B591C78900200B79A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6653B571C78900200B79A3A /* LaunchScreen.storyboard */; };
+		C6653B641C78900200B79A3A /* ControlandoTecladoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6653B631C78900200B79A3A /* ControlandoTecladoTests.swift */; };
+		C6653B6F1C78900200B79A3A /* ControlandoTecladoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6653B6E1C78900200B79A3A /* ControlandoTecladoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6653B601C78900200B79A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6653B431C78900200B79A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6653B4A1C78900200B79A3A;
+			remoteInfo = ControlandoTeclado;
+		};
+		C6653B6B1C78900200B79A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6653B431C78900200B79A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6653B4A1C78900200B79A3A;
+			remoteInfo = ControlandoTeclado;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6653B4B1C78900200B79A3A /* ControlandoTeclado.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlandoTeclado.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6653B4E1C78900200B79A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6653B501C78900200B79A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6653B531C78900200B79A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6653B551C78900200B79A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6653B581C78900200B79A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6653B5A1C78900200B79A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6653B5F1C78900200B79A3A /* ControlandoTecladoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlandoTecladoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6653B631C78900200B79A3A /* ControlandoTecladoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlandoTecladoTests.swift; sourceTree = "<group>"; };
+		C6653B651C78900200B79A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6653B6A1C78900200B79A3A /* ControlandoTecladoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlandoTecladoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6653B6E1C78900200B79A3A /* ControlandoTecladoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlandoTecladoUITests.swift; sourceTree = "<group>"; };
+		C6653B701C78900200B79A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6653B481C78900200B79A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B5C1C78900200B79A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B671C78900200B79A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6653B421C78900200B79A3A = {
+			isa = PBXGroup;
+			children = (
+				C6653B4D1C78900200B79A3A /* ControlandoTeclado */,
+				C6653B621C78900200B79A3A /* ControlandoTecladoTests */,
+				C6653B6D1C78900200B79A3A /* ControlandoTecladoUITests */,
+				C6653B4C1C78900200B79A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6653B4C1C78900200B79A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6653B4B1C78900200B79A3A /* ControlandoTeclado.app */,
+				C6653B5F1C78900200B79A3A /* ControlandoTecladoTests.xctest */,
+				C6653B6A1C78900200B79A3A /* ControlandoTecladoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6653B4D1C78900200B79A3A /* ControlandoTeclado */ = {
+			isa = PBXGroup;
+			children = (
+				C6653B4E1C78900200B79A3A /* AppDelegate.swift */,
+				C6653B501C78900200B79A3A /* ViewController.swift */,
+				C6653B521C78900200B79A3A /* Main.storyboard */,
+				C6653B551C78900200B79A3A /* Assets.xcassets */,
+				C6653B571C78900200B79A3A /* LaunchScreen.storyboard */,
+				C6653B5A1C78900200B79A3A /* Info.plist */,
+			);
+			path = ControlandoTeclado;
+			sourceTree = "<group>";
+		};
+		C6653B621C78900200B79A3A /* ControlandoTecladoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6653B631C78900200B79A3A /* ControlandoTecladoTests.swift */,
+				C6653B651C78900200B79A3A /* Info.plist */,
+			);
+			path = ControlandoTecladoTests;
+			sourceTree = "<group>";
+		};
+		C6653B6D1C78900200B79A3A /* ControlandoTecladoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6653B6E1C78900200B79A3A /* ControlandoTecladoUITests.swift */,
+				C6653B701C78900200B79A3A /* Info.plist */,
+			);
+			path = ControlandoTecladoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6653B4A1C78900200B79A3A /* ControlandoTeclado */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6653B731C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTeclado" */;
+			buildPhases = (
+				C6653B471C78900200B79A3A /* Sources */,
+				C6653B481C78900200B79A3A /* Frameworks */,
+				C6653B491C78900200B79A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlandoTeclado;
+			productName = ControlandoTeclado;
+			productReference = C6653B4B1C78900200B79A3A /* ControlandoTeclado.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6653B5E1C78900200B79A3A /* ControlandoTecladoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6653B761C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTecladoTests" */;
+			buildPhases = (
+				C6653B5B1C78900200B79A3A /* Sources */,
+				C6653B5C1C78900200B79A3A /* Frameworks */,
+				C6653B5D1C78900200B79A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6653B611C78900200B79A3A /* PBXTargetDependency */,
+			);
+			name = ControlandoTecladoTests;
+			productName = ControlandoTecladoTests;
+			productReference = C6653B5F1C78900200B79A3A /* ControlandoTecladoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6653B691C78900200B79A3A /* ControlandoTecladoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6653B791C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTecladoUITests" */;
+			buildPhases = (
+				C6653B661C78900200B79A3A /* Sources */,
+				C6653B671C78900200B79A3A /* Frameworks */,
+				C6653B681C78900200B79A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6653B6C1C78900200B79A3A /* PBXTargetDependency */,
+			);
+			name = ControlandoTecladoUITests;
+			productName = ControlandoTecladoUITests;
+			productReference = C6653B6A1C78900200B79A3A /* ControlandoTecladoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6653B431C78900200B79A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gildenio Neto";
+				TargetAttributes = {
+					C6653B4A1C78900200B79A3A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C6653B5E1C78900200B79A3A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C6653B4A1C78900200B79A3A;
+					};
+					C6653B691C78900200B79A3A = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C6653B4A1C78900200B79A3A;
+					};
+				};
+			};
+			buildConfigurationList = C6653B461C78900200B79A3A /* Build configuration list for PBXProject "ControlandoTeclado" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6653B421C78900200B79A3A;
+			productRefGroup = C6653B4C1C78900200B79A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6653B4A1C78900200B79A3A /* ControlandoTeclado */,
+				C6653B5E1C78900200B79A3A /* ControlandoTecladoTests */,
+				C6653B691C78900200B79A3A /* ControlandoTecladoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6653B491C78900200B79A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6653B591C78900200B79A3A /* LaunchScreen.storyboard in Resources */,
+				C6653B561C78900200B79A3A /* Assets.xcassets in Resources */,
+				C6653B541C78900200B79A3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B5D1C78900200B79A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B681C78900200B79A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6653B471C78900200B79A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6653B511C78900200B79A3A /* ViewController.swift in Sources */,
+				C6653B4F1C78900200B79A3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B5B1C78900200B79A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6653B641C78900200B79A3A /* ControlandoTecladoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6653B661C78900200B79A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6653B6F1C78900200B79A3A /* ControlandoTecladoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6653B611C78900200B79A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6653B4A1C78900200B79A3A /* ControlandoTeclado */;
+			targetProxy = C6653B601C78900200B79A3A /* PBXContainerItemProxy */;
+		};
+		C6653B6C1C78900200B79A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6653B4A1C78900200B79A3A /* ControlandoTeclado */;
+			targetProxy = C6653B6B1C78900200B79A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6653B521C78900200B79A3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6653B531C78900200B79A3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6653B571C78900200B79A3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6653B581C78900200B79A3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6653B711C78900200B79A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6653B721C78900200B79A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6653B741C78900200B79A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ControlandoTeclado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTeclado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6653B751C78900200B79A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ControlandoTeclado/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTeclado;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C6653B771C78900200B79A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ControlandoTecladoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTecladoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlandoTeclado.app/ControlandoTeclado";
+			};
+			name = Debug;
+		};
+		C6653B781C78900200B79A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ControlandoTecladoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTecladoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ControlandoTeclado.app/ControlandoTeclado";
+			};
+			name = Release;
+		};
+		C6653B7A1C78900200B79A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ControlandoTecladoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTecladoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ControlandoTeclado;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C6653B7B1C78900200B79A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ControlandoTecladoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ControlandoTecladoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ControlandoTeclado;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6653B461C78900200B79A3A /* Build configuration list for PBXProject "ControlandoTeclado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6653B711C78900200B79A3A /* Debug */,
+				C6653B721C78900200B79A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6653B731C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTeclado" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6653B741C78900200B79A3A /* Debug */,
+				C6653B751C78900200B79A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6653B761C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTecladoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6653B771C78900200B79A3A /* Debug */,
+				C6653B781C78900200B79A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6653B791C78900200B79A3A /* Build configuration list for PBXNativeTarget "ControlandoTecladoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6653B7A1C78900200B79A3A /* Debug */,
+				C6653B7B1C78900200B79A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6653B431C78900200B79A3A /* Project object */;
+}
