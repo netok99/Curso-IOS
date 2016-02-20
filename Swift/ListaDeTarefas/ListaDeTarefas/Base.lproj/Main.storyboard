@@ -85,9 +85,10 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lv3-iA-Y38">
                                 <rect key="frame" x="20" y="91" width="335" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="suK-pe-4Np"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="335" id="1gW-wd-szC"/>
+                                    <constraint firstAttribute="width" constant="335" id="OTh-HN-Ymr"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="hPm-jo-xg2"/>
                                     <constraint firstAttribute="height" constant="30" id="y3p-ep-vHC"/>
-                                    <constraint firstAttribute="width" constant="335" id="yNw-Ap-Cvr"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -108,11 +109,17 @@
                         <constraints>
                             <constraint firstItem="jjp-ps-JN2" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="26" id="62T-RF-IwZ"/>
                             <constraint firstItem="lv3-iA-Y38" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="LtM-ud-VNA"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="top" secondItem="jjp-ps-JN2" secondAttribute="bottom" constant="24" id="OY0-49-4L2"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="top" secondItem="jjp-ps-JN2" secondAttribute="bottom" constant="24" id="Xld-rY-Qr8"/>
                             <constraint firstItem="blr-ea-uWB" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="b9h-5h-dQj"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="cmu-pB-ZO1"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="cya-P1-att"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="d4z-R7-Gi6"/>
                             <constraint firstItem="jjp-ps-JN2" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="hMQ-Oi-5pB"/>
                             <constraint firstItem="lv3-iA-Y38" firstAttribute="top" secondItem="jjp-ps-JN2" secondAttribute="bottom" constant="24" id="mRC-VZ-vU1"/>
+                            <constraint firstItem="lv3-iA-Y38" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="qDP-nO-xZM"/>
+                            <constraint firstItem="blr-ea-uWB" firstAttribute="top" secondItem="lv3-iA-Y38" secondAttribute="bottom" constant="40" id="qbA-vV-wd8"/>
                             <constraint firstItem="lv3-iA-Y38" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="roy-cB-Xuh"/>
-                            <constraint firstItem="blr-ea-uWB" firstAttribute="top" secondItem="lv3-iA-Y38" secondAttribute="bottom" constant="39" id="uig-XJ-A9O"/>
                             <constraint firstItem="lv3-iA-Y38" firstAttribute="top" secondItem="jjp-ps-JN2" secondAttribute="bottom" constant="24" id="yek-g9-sKN"/>
                         </constraints>
                     </view>
