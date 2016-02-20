@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C6653B841C7893D900B79A3A"
+               BuildableName = "ListaDeTarefas.app"
+               BlueprintName = "ListaDeTarefas"
+               ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C6653B9A1C7893D900B79A3A"
+               BuildableName = "ListaDeTarefasTests.xctest"
+               BlueprintName = "ListaDeTarefasTests"
+               ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C6653BA51C7893D900B79A3A"
+               BuildableName = "ListaDeTarefasUITests.xctest"
+               BlueprintName = "ListaDeTarefasUITests"
+               ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6653B841C7893D900B79A3A"
+            BuildableName = "ListaDeTarefas.app"
+            BlueprintName = "ListaDeTarefas"
+            ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6653B841C7893D900B79A3A"
+            BuildableName = "ListaDeTarefas.app"
+            BlueprintName = "ListaDeTarefas"
+            ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C6653B841C7893D900B79A3A"
+            BuildableName = "ListaDeTarefas.app"
+            BlueprintName = "ListaDeTarefas"
+            ReferencedContainer = "container:ListaDeTarefas.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
